@@ -20,6 +20,9 @@ class Deck:
     def shuffle(self) -> None:
         shuffle(self.cards)
 
+    def count_cards(self) -> int:
+        return len(self.cards)
+
     def __repr__(self):
         deck = ", ".join([str(card) for card in self.cards])
         return f"{deck}"
