@@ -1,7 +1,4 @@
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    from entities import Deck
+from entities.deck import Deck
 
 
 class Player:
