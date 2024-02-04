@@ -1,6 +1,7 @@
 from random import shuffle
 from entities import Card
 
+
 class Deck:
 
     def __init__(self):
@@ -22,4 +23,3 @@ class Deck:
     def __repr__(self):
         deck = ", ".join([str(card) for card in self.cards])
         return f"{deck}"
-
